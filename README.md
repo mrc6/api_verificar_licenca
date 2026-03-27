@@ -21,3 +21,8 @@ quit();
 pip install -r requirements.txt
 
 python main.py
+
+# Abra a pagina da web de apoio / testes    
+dentro da pasta www click em index.htm e preencha o campo e-mail e senha com os dados abaixo:    
+email: admin@admin.db    
+senha: 123456    
