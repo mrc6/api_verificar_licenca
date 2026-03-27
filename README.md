@@ -13,7 +13,7 @@ show collections
     
 # insira o primeiro usuario para poder acessar o sistema com o comando abaixo:    
 db.users.insertOne({"_id": 1, "name": "admin", "email": "admin@admin.db", "password": "123456","accounts": 27032026, "exp_month": 12, "exp_year": 2026});     
-db.login.insertOne({"_id": 1, name": "admin", "email": "admin@admin.db", "password": "123456"});    
+db.login.insertOne({"_id": 1, "name": "admin", "email": "admin@admin.db", "password": "123456"});    
     
 # Agora você já pode sair do monosh    
 quit();    
