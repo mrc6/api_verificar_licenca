@@ -224,4 +224,4 @@ def delete_user():
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
-app.run(port=80)
+app.run(port=8080)
