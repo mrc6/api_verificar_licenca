@@ -1,1 +1,24 @@
-#placeholder
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+ <form id="myForm" action="" method="post">
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <input type="submit" value="Login">
+ </form>
+ <p id="responseMessage"></p>
+ <form id="userInfo" action="" method="get">
+    <input type="submit" value="Get User Info">
+ </form>
+</body>
+<script src="script.js"></script>
+</html>
