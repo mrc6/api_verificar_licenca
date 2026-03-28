@@ -27,3 +27,5 @@ python main.py
 dentro da pasta www click em index.htm e preencha o campo e-mail e senha com os dados abaixo:    
 email: admin@admin.db    
 senha: 123456    
+    
+Só depois de logado é possível receber os dados dos usuários cadastrados no banco de dados
